@@ -1,0 +1,19 @@
+.shape {
+  background: red;
+  display: inline-block;
+  margin: 10px;
+}
+
+.shape__row {
+  display: flex;
+  flex-direction: row;
+}
+
+.shape__col {
+  width: 10px;
+  height: 10px;
+}
+
+.shape__col--filled {
+  background: black;
+}
